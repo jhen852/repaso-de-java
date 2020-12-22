@@ -23,11 +23,10 @@ public class Ejercicio5 {
         System.out.println("El precio del carro");
         valorCarro = leer.nextDouble();
         comision = 150 * carros;
-        pagoExtra = 0.05 * valorCarro; // es por un carro pero digamos que son 3 
-        pagoExtra*=carros;
+        pagoExtra = (0.05 * valorCarro)* carros; // es por un carro pero digamos que son 3 
        totalGanancia = 1000+comision+pagoExtra;
         System.out.println("El pago mensual que recivira sera "+totalGanancia);
-        
+         
                 
         
         
